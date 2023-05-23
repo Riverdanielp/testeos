@@ -64,7 +64,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST')
         $porc_cap_p = floatval($porc_cap) / floatval($cantidad);
         $dividendo = floatval($porc_cap_p) * floatval($cantidad);
 
-        $cuota_cero =  ((((intval($cantidad)*$dividendo)/intval($cantidad))-(($dividendo)/2) )/intval($cantidad));
+        $cuota_cero = ((((intval($cantidad)*$dividendo)/intval($cantidad))-(($dividendo)/2) )/intval($cantidad));
         ?>
         <table style="text-align: left; margin-left: auto; margin-right: auto;" border="1" cellpadding="1" cellspacing="1">
             <thead>
